@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button">按钮</string>
+    <string name="str">生日快乐亲爱的</string>
+    <string name="action_settings">设置</string>
+    <string name="button2">登录</string>
+    <string name="app_name">生日快乐</string>
+</resources>

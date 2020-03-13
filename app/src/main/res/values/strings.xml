@@ -1,0 +1,8 @@
+<resources>
+    <string name="button">FirstApp</string>
+    <string name="str">"Happy birthday! "</string>
+    <string  name="app_name">happy birthday</string>
+    <string name="action_settings">Settings</string>
+    <string name="button2">button..</string>
+    <string name="name1" translatable="false">Your Mabel</string>>
+</resources>
