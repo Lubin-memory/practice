@@ -5,4 +5,7 @@
     <string name="action_settings">设置</string>
     <string name="button2">登录</string>
     <string name="app_name">生日快乐</string>
+    <string name="imp">请输入内容</string>
+    <string name="hint_txt">Input your name.</string>
+    <string name="score1">3</string>
 </resources>

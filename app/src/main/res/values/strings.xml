@@ -1,8 +1,15 @@
 <resources>
     <string name="button">FirstApp</string>
     <string name="str">"Happy birthday! "</string>
-    <string  name="app_name">happy birthday</string>
+    <string name="app_name">happy birthday</string>
     <string name="action_settings">Settings</string>
     <string name="button2">button..</string>
-    <string name="name1" translatable="false">Your Mabel</string>>
+    <string name="name1" translatable="false">Your Mabel</string>
+    <string name="imp">please input the text.</string>
+    <string name="name" translatable="false">Your Mabel</string>
+    <string name="hint_txt">Input your name.</string>
+    <string name="score1">3</string>
+    <string name="score2">2</string>
+    <string name="score3">1</string>
+    <string name="btn_reset">reset</string>
 </resources>
