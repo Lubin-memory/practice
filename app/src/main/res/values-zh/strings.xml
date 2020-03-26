@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="button">按钮</string>
-    <string name="str">生日快乐亲爱的</string>
+    <string name="str">生日快乐</string>
     <string name="action_settings">设置</string>
     <string name="button2">登录</string>
     <string name="app_name">生日快乐</string>
     <string name="imp">请输入内容</string>
     <string name="hint_txt">Input your name.</string>
     <string name="score1">3</string>
+    <string name="InputTemp">请输入摄氏温度</string>
+    <string name="score2">2</string>
+    <string name="score3">1</string>
+    <string name="btn_reset">重置</string>
+    <string name="show">0</string>
+    <string name="title_activity_temp_convert">温度转换器</string>
+    <string name="app_name2">温度转换</string>
+    <string name="temp_convert">温度转换器</string>
 </resources>

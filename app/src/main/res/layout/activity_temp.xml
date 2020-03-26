@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/4tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="50dp"
+tools:context=".temp">
+
+<TextView
+    android:id="@+id/tempname"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+
+    android:layout_marginBottom="60dp"
+    android:gravity="center"
+    android:text="@string/temp_convert"
+    android:textColor="#FF9800"
+    android:textSize="36sp"
+    android:visibility="visible"
+    tools:ignore="HardcodedText" />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginBottom="60dp"
+    android:gravity="center"
+    android:text="@string/show"
+    android:textColor="#FFC107"
+    android:textSize="24sp"
+    android:visibility="visible"
+    tools:ignore="HardcodedText" />
+
+<EditText
+    android:id="@+id/inputText"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginBottom="30dp"
+    android:ems="10"
+    android:gravity="center"
+    android:hint="@string/InputTemp"
+    android:inputType="number"
+    android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:text="@string/temp_btn"
+        android:textSize="25sp" />
+
+
+</LinearLayout>

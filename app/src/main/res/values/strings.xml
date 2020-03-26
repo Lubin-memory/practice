@@ -12,4 +12,16 @@
     <string name="score2">2</string>
     <string name="score3">1</string>
     <string name="btn_reset">reset</string>
+    <string name="title_activity_temp_convert">Temp_convert</string>
+    <string name="InputTemp">Input the Celsius temperature.</string>
+    <string name="temp_btn" translatable="false">OK</string>
+    <string name="show">0</string>
+    <string name="title_activity_temp" translatable="false">temp</string>
+    <string name="temp_convert">Temp_Convert</string>
+    <string name="app_name2">Temp_Convert</string>
+
+    <string name="btn_dollar_label">dollar</string>
+    <string name="rmb_hint">Input RMB</string>
+    <string name="btn_euro_label">Euro</string>
+    <string name="btn_wom_label">Wom</string>
 </resources>

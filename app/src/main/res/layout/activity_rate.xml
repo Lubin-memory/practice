@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    tools:context=".Rate">
+  <EditText
+      android:layout_width="match_parent"
+      android:gravity="center"
+      android:inputType="numberDecimal"
+      android:layout_height="wrap_content"
+      android:id="@+id/rmb"/>
+    <TextView
+        android:id="@+id/showOut"
+        android:textSize="35sp"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+    <Button
+        android:id="@+id/btn_dollar"
+        android:text="@string/btn_dollar_label"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_euro"
+        android:text="@string/btn_euro_label"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_wom"
+        android:text="@string/btn_wom_label"
+        android:layout_width="match_parent"
+        android:onClick="openOne"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
