@@ -37,11 +37,19 @@
         android:onClick="onClick"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-    <Button
-        android:id="@+id/btn_wom"
-        android:text="@string/btn_wom_label"
-        android:layout_width="match_parent"
-        android:onClick="openOne"
-        android:layout_height="wrap_content"/>
+
+  <Button
+      android:id="@+id/btn_wom"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:onClick="onClick"
+      android:text="@string/btn_wom_label" />
+
+  <Button
+      android:id="@+id/btn_opencfg"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:onClick="openOne"
+      android:text="@string/btn_opencfg_label" />
 
 </LinearLayout>

@@ -24,4 +24,6 @@
     <string name="rmb_hint">Input RMB</string>
     <string name="btn_euro_label">Euro</string>
     <string name="btn_wom_label">Wom</string>
+    <string name="btn_opencfg_label">Config</string>
+    <string name="btn_save_label">Save</string>
 </resources>
