@@ -31,6 +31,7 @@ public class ConfigActivity extends AppCompatActivity {
         dollarText.setText(String.valueOf(dollar2));
         euroText.setText(String.valueOf(euro2));
         wonText.setText(String.valueOf(won2));
+
     }
 
 public void save(View btn){
@@ -40,16 +41,16 @@ public void save(View btn){
     float newEuro=Float.parseFloat(euroText.getText().toString());
     float newWon=Float.parseFloat(wonText.getText().toString());
     Log.i(TAG,"获取到新的值");
-    Log.i(TAG,"onCreated: newDollar="+newDollar);
-    Log.i(TAG,"onCreated: newEuro="+newEuro);
-    Log.i(TAG,"onCreated: newWon="+newWon);
+    Log.i(TAG,"save: newDollar="+newDollar);
+    Log.i(TAG,"save: newEuro="+newEuro);
+    Log.i(TAG,"save: newWon="+newWon);
 
     //保存到Bundle或放入到Extra中
     Intent intent=getIntent();
     Bundle bundle=new Bundle();
-    bundle.putFloat("keydollar",newDollar);
-    bundle.putFloat("keyeuro",newEuro);
-    bundle.putFloat("keywon",newWon);
+    bundle.putFloat("key_dollar",newDollar);
+    bundle.putFloat("key_euro",newEuro);
+    bundle.putFloat("key_won",newWon);
     intent.putExtras(bundle);
     setResult(2,intent);
 

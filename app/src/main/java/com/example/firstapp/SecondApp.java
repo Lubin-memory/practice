@@ -1,11 +1,11 @@
 package com.example.firstapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class SecondApp extends AppCompatActivity {
     TextView score;
@@ -16,6 +16,7 @@ public class SecondApp extends AppCompatActivity {
         setContentView(R.layout.activity_second_app);
        score=(TextView) findViewById(R.id.score);
         score2=(TextView) findViewById(R.id.score2);
+
 
     }
     public void btnAdd1(View btn){

@@ -26,4 +26,5 @@
     <string name="btn_wom_label">Wom</string>
     <string name="btn_opencfg_label">Config</string>
     <string name="btn_save_label">Save</string>
+    <string name="menu_setting">setting</string>
 </resources>
