@@ -31,4 +31,5 @@
     <string name="title_activity_t">T</string>
     <string name="Rate_name">Rate</string>
     <string name="label_open_list">OpenList</string>
+    <string name="query">Please input the query content</string>
 </resources>

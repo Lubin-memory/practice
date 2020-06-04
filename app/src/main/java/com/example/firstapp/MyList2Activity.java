@@ -45,12 +45,12 @@ public class MyList2Activity extends ListActivity implements Runnable{
             public void handleMessage(Message msg) {
                 if(msg.what == msgWhat){
                     List<HashMap<String, String>> rateList = (List<HashMap<String, String>>) msg.obj;
-                    SimpleAdapter adapter = new SimpleAdapter(MyList2Activity.this, rateList, // listItems数据源
+                   SimpleAdapter adapter = new SimpleAdapter(MyList2Activity.this, rateList, // listItems数据源
                             R.layout.list_item, // ListItem的XML布局实现
-                            new String[] { "ItemTitle", "ItemDetail" },
-                            new int[] { R.id.itemTitle, R.id.itemDetail });
-                    setListAdapter(adapter);
-                    Log.i("handler","reset list...");
+                           new String[] { "ItemTitle","ItemDetail" },
+                           new int[] { R.id.itemTitle, R.id.itemDetail });
+                   setListAdapter(adapter);
+                   Log.i("handler","reset list...");
                 }
                 super.handleMessage(msg);
             }

@@ -6,22 +6,17 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical" >
 
     <TextView
         android:id="@+id/itemTitle"
-        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-android:textColor="@color/colorPrimary"
-        android:text="@string/Rate_name"
-        android:textSize="20sp" />
-
+        android:textSize="20sp"
+        android:layout_width="fill_parent"/>
     <TextView
         android:id="@+id/itemDetail"
-        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Rate_name"
-        android:textSize="15sp" />
+        android:textSize="15sp"
+        android:layout_width="fill_parent"/>
 
 </LinearLayout>
