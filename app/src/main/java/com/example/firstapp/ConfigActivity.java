@@ -16,9 +16,9 @@ public class ConfigActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_config);
+        setContentView(R.layout.activity_config); //test全是废话
        Intent intent =getIntent();
-       float dollar2=intent.getFloatExtra("dollar_rate_key",0.0f);
+       float dollar2=intent.getFloatExtra("dollar_rate_key",0.0f);//floa型数据的用法
         float euro2=intent.getFloatExtra("euro_rate_key",0.0f);
         float won2=intent.getFloatExtra("won_rate_key",0.0f);
        Log.i(TAG,"onCreated: dollar2="+dollar2);

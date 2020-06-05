@@ -6,8 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MyListActivity">
 
-    <ListView
-        android:id="@+id/mylist"
+    <GridView
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:columnWidth="100dp"
+        android:numColumns="3"
+        android:id="@+id/mylist" />
 </RelativeLayout>
