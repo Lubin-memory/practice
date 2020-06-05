@@ -1,3 +1,5 @@
+package com.example.firstapp;
+
 public class RateItem {
     private int id;
     private String curName;
